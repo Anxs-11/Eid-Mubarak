@@ -411,7 +411,7 @@ section {
   .more {
     position: relative;
     top: 220px;
-    left: -1vw;
+    left: -8vw;
     width: 350px;
     margin: 20px;
     font-size: 1em;
@@ -421,12 +421,11 @@ section {
 
 /* -----Contact us ------ */
 .contact {
-  position: absolute;
-  top: 340%;
+  position: relative;
+  top: 2100px;
   right: 3vw;
   left: 1vw;
   margin: 50px 20%;
-  min-width: 450px;
   width: 50vw;
 }
 .detail {
@@ -474,15 +473,16 @@ button:hover {
   transition: all 1s ease-out;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 360px) {
   .contact {
-    position: absolute;
-    top: 380%;
+    position: relative;
+    top: 300px;
+    left: 6vw;
     margin: 0 10% 0 15%;
   }
   .contact h1 {
     position: relative;
-    left: 20vw;
+    left: 12vw;
     font-size: 3rem;
     /* margin: 0 10% 0 20%; */
   }
@@ -491,11 +491,11 @@ button:hover {
 /* footer */
 footer {
   display: block;
-  position: absolute;
-  top: 450%;
+  position: relative;
+  top: 2300px;
   height: 20px;
   background: rgba(18, 10, 15, 0.8);
-  min-width: 100vw;
+  width: 115%;
   padding: 40px;
   height: 50px;
 }
@@ -506,4 +506,10 @@ footer {
 .copyright span:hover {
   color: rgb(246, 87, 113);
   transition: all 1s ease-out;
+}
+@media (max-width: 360px) {
+  footer {
+    position: relative;
+    top: 400px;
+  }
 }
