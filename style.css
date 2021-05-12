@@ -246,6 +246,17 @@ section {
   }
 }
 
+@media (max-width: 360px) {
+  .logos ul li a img {
+    position: relative;
+    top: 200%;
+    right: 10%;
+  }
+  .img img {
+    width: 1000px;
+  }
+}
+
 /* -------- About page ---------- */
 .page-about {
   position: absolute;
@@ -335,7 +346,7 @@ section {
   .page-about {
     display: block;
     position: relative;
-    top: 1%;
+    top: 210px;
     left: 13%;
   }
   .about {
@@ -388,19 +399,18 @@ section {
 @media (max-width: 800px) {
   .more {
     position: absolute;
-    top: 250%;
-    left: -13vw;
+    top: 210%;
+    left: -10vw;
     right: 10vw;
     margin: 20px;
-
     font-size: 1em;
     transition: all 1s ease-out;
   }
 }
 @media (max-width: 360px) {
   .more {
-    position: absolute;
-    top: 220%;
+    position: relative;
+    top: 220px;
     left: -1vw;
     width: 350px;
     margin: 20px;
